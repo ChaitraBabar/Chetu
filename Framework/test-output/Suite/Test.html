@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 23 19:18:42 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40242 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.selectedUSCountryOption()'><b>selectedUSCountryOption</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 8: Click on US country option</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.scrollToFooterSection()'><b>scrollToFooterSection</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 2: Scrool to the Footer section</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.selectedUSCountry()'><b>selectedUSCountry</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 7: Select US country</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.clickOnSearchTextFieldAfterEnteringText()'><b>clickOnSearchTextFieldAfterEnteringText</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 13: Click on Search Text field after entering text in search field</td>
+<td></td>
+<td>10</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.clickOnChangeCountryLink()'><b>clickOnChangeCountryLink</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 5: Click on Change Country Link</td>
+<td></td>
+<td>1</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.kindleUnlimitedTag()'><b>kindleUnlimitedTag</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 14: Select Kindle Unlimited Tag</td>
+<td></td>
+<td>3</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.deleteAllCoockies()'><b>deleteAllCoockies</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 1: Delete All Coockies</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.enterTextOnSearchTextField()'><b>enterTextOnSearchTextField</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 12: Enter Text on Search Text field</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.verifyTheContryFlag()'><b>verifyTheContryFlag</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 4: Mouse Hover On Country Selector</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.clickOnCountryDropDown()'><b>clickOnCountryDropDown</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 6: Click on Country Dropdown</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.SwichToNewTabe()'><b>SwichToNewTabe</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 10: Switch To New Tab</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.clickOnSearchTextField()'><b>clickOnSearchTextField</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 11: Click on Search Text field</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.mouseHoverOnBestSellerTag()'><b>mouseHoverOnBestSellerTag</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 15: Mouse Hover on Best Seller</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.verifyTheFlashMSG()'><b>verifyTheFlashMSG</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 16: Verify the Flash Message<br/>
+<a href="#Output-537524656" onClick='toggleBox("Output-537524656", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-537524656" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-537524656">
+<p>Strings are not same<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.clickOnBackToTop()'><b>clickOnBackToTop</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 3: Click on Back To Top</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+<tr>
+<td title='com.cl.testcases.SR_TC_03.clickOnGoWebsiteCTA()'><b>clickOnGoWebsiteCTA</b><br>Test class: com.cl.testcases.SR_TC_03<br>Test method: Step 9: Click on Go Website CTA</td>
+<td></td>
+<td>0</td>
+<td>com.cl.testcases.SR_TC_03@588df31b</td></tr>
+</table><p>
+</body>
+</html>
