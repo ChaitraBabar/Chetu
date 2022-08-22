@@ -56,18 +56,18 @@ public class BaseClass {
 	{
 		Reporter.log("Tring to start browser and Getting application ready", true);
 		//driver=BrowserFactory.startApplication(driver, config.getBrowser(), config.getGmailURL());
-		DesiredCapabilities capabilities = new DesiredCapabilities();
-	    capabilities.setCapability("browserName", "Chrome");
-	    capabilities.setCapability("browserVersion", "latest");
-	    HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
-	    browserstackOptions.put("os", "Windows");
-	    browserstackOptions.put("osVersion", "10");
-	    browserstackOptions.put("local", "false");
-	    browserstackOptions.put("seleniumVersion", "3.14.0");
-	    capabilities.setCapability("bstack:options", browserstackOptions);
-	   driver = new RemoteWebDriver(new URL(URL), capabilities);
-	   driver.get(ObjRepository.getValue("AmazonURL"));
-	//	driver=BrowserFactory.startApplication(driver, ObjRepository.getValue("Browser"), ObjRepository.getValue("AmazonURL"));
+//		DesiredCapabilities capabilities = new DesiredCapabilities();
+//	    capabilities.setCapability("browserName", "Chrome");
+//	    capabilities.setCapability("browserVersion", "latest");
+//	    HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
+//	    browserstackOptions.put("os", "Windows");
+//	    browserstackOptions.put("osVersion", "10");
+//	    browserstackOptions.put("local", "false");
+//	    browserstackOptions.put("seleniumVersion", "3.14.0");
+//	    capabilities.setCapability("bstack:options", browserstackOptions);
+//	   driver = new RemoteWebDriver(new URL(URL), capabilities);
+//	   driver.get(ObjRepository.getValue("AmazonURL"));
+	driver=BrowserFactory.startApplication(driver, ObjRepository.getValue("Browser"), ObjRepository.getValue("AmazonURL"));
 		System.out.println(driver.getTitle());
 		Reporter.log("Browser and Application is up and running", true);
 		
